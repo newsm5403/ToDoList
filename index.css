@@ -34,7 +34,12 @@ h2{
     font-size: 30px;
     text-decoration-line: none;
 }
-
+#weather{
+    color: white;
+    font-size: 30px;
+    text-align: top;
+    text-align: right;
+}
 .form,
 .greetings {
     display: none;
