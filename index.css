@@ -36,9 +36,12 @@ h2{
     text-decoration-line: none;
 }
 #weather{
+    position: fixed;
+    bottom:40px;
+    right: 40px;
     color: white;
     font-size: 30px;
-    text-align: top;
+    text-align: bottom;
     text-align: right;
     animation: fadeIn .5s linear;
 }
@@ -121,6 +124,7 @@ button{
     border-radius: 10px;
     cursor: pointer;
     margin: 5px auto;
+    margin-left: 10px;
 }
 button:hover{
     background: white;
@@ -129,4 +133,18 @@ button:hover{
 
 li{
     animation: fadeIn .5s;
+}
+
+#relol{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 30px;
+    color:white;
+    font-size: 40px;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+#relol:hover{
+    color: mediumspringgreen;
 }
